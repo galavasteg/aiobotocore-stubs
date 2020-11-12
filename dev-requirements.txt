@@ -1,0 +1,8 @@
+-r requirements.txt
+
+# LINTER
+wemake-python-styleguide    >=0.14.1, <1
+pre-commit                  >=2.8.2, <3
+
+# provide "setuptools bdist_wheel" cmd
+wheel	                    >=0.35.1, <1
