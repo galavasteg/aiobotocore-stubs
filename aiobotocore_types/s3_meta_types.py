@@ -1,9 +1,4 @@
-"""Simple types used in requests and responses.
-
-Linter ignore
-    WPS317 — Found incorrect multi-line parameters.
-        There are too many arguments to set them line by line (historical reasons).
-"""
+"""Simple types used in requests and responses."""
 from datetime import datetime
 from typing import Dict, List, Literal, TypedDict, Union
 

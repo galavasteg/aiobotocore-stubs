@@ -1,6 +1,6 @@
 from typing import List
 
-from setuptools import find_packages, setup
+from setuptools import setup
 
 
 def get_long_description():
@@ -18,19 +18,23 @@ def parse_requirements() -> List[str]:
     return dependencies
 
 
-packages = find_packages()
 requirements = parse_requirements()
 
 setup(
-    name='x5-aiobotocore-stubs',
+    name='aiobotocore-stubs',
     version='0.0.1',
+    author_email='galavasteg@gmail.com',
+    url='https://github.com/galavasteg/aiobotocore-stubs',
     python_requires='>=3.8',
     install_requires=requirements,
     license='BSD',
     description='aiobotocore stubs for typing',
     long_description=get_long_description(),
     long_description_content_type='text/markdown',
-    packages=packages,
+    packages=[
+        'aiobotocore-stubs',
+        'aiobotocore_types',
+    ],
     package_data={'aiobotocore-stubs': ['*.pyi', 'py.typed']},
     data_files=[('', ['LICENSE'])],
     classifiers=[

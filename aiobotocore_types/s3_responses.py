@@ -2,10 +2,6 @@
 
 Copied and adapted Python from:
  https://botocore.amazonaws.com/v1/documentation/api/latest/reference/services/s3.html .
-
-Linter ignore
-    WPS202 — Found too many module members: X > 7.
-        It is convenient to see all responses in one place.
 """
 from datetime import datetime
 from typing import Dict, List, Literal
