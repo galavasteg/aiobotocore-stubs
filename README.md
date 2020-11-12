@@ -1,7 +1,7 @@
 # Stubs for [aiobotocore](https://github.com/aio-libs/aiobotocore)
 `aiobotocore.client.AioBaseClient` stub with docstrings and type hinting for most common S3-methods.
 
-v0.0.1
+v0.0.2
 
 ## Installation
 ```
