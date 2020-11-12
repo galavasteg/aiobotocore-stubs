@@ -22,7 +22,7 @@ requirements = parse_requirements()
 
 setup(
     name='aiobotocore-stubs',
-    version='0.0.1',
+    version='0.0.2',
     author_email='galavasteg@gmail.com',
     url='https://github.com/galavasteg/aiobotocore-stubs',
     python_requires='>=3.8',
