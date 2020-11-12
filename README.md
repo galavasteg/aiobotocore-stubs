@@ -1,5 +1,5 @@
-# Async S3-Extension
-AioBaseClient stub extend some aiobotocore.client.AioBaseClient methods with docstrings and type hinting.
+# Stubs for [aiobotocore](https://github.com/aio-libs/aiobotocore)
+`aiobotocore.client.AioBaseClient` stub with docstrings and type hinting for most common S3-methods.
 
 v0.0.1
 
