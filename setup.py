@@ -29,8 +29,6 @@ setup(
     install_requires=requirements,
     license='BSD',
     description='aiobotocore stubs for typing',
-    long_description=get_long_description(),
-    long_description_content_type='text/markdown',
     packages=[
         'aiobotocore-stubs',
         'aiobotocore_types',
